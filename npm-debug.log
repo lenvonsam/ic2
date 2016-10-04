@@ -1,0 +1,693 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.2.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.9.3
+3 info using node@v6.2.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData gulp
+20 silly mapToRegistry name gulp
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry http://registry.npm.taobao.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'gulp',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'gulp',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri http://registry.npm.taobao.org/gulp
+25 silly fetchNamedPackageData gulp-concat
+26 silly mapToRegistry name gulp-concat
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry http://registry.npm.taobao.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'gulp-concat',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'gulp-concat',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-concat
+31 silly fetchNamedPackageData gulp-minify-css
+32 silly mapToRegistry name gulp-minify-css
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry http://registry.npm.taobao.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'gulp-minify-css',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'gulp-minify-css',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-minify-css
+37 silly fetchNamedPackageData gulp-rename
+38 silly mapToRegistry name gulp-rename
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry http://registry.npm.taobao.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'gulp-rename',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   name: 'gulp-rename',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-rename
+43 silly fetchNamedPackageData gulp-sass
+44 silly mapToRegistry name gulp-sass
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry http://registry.npm.taobao.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'gulp-sass',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   name: 'gulp-sass',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-sass
+49 silly fetchNamedPackageData leancloud-storage
+50 silly mapToRegistry name leancloud-storage
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry http://registry.npm.taobao.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'leancloud-storage',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   name: 'leancloud-storage',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri http://registry.npm.taobao.org/leancloud-storage
+55 verbose request uri http://registry.npm.taobao.org/gulp-minify-css
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 01:47:43
+58 verbose request id f975b4a69cb0b192
+59 http request GET http://registry.npm.taobao.org/gulp-minify-css
+60 verbose request uri http://registry.npm.taobao.org/gulp-rename
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 01:47:43
+63 http request GET http://registry.npm.taobao.org/gulp-rename
+64 verbose request uri http://registry.npm.taobao.org/gulp-sass
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 01:47:43
+67 http request GET http://registry.npm.taobao.org/gulp-sass
+68 verbose request uri http://registry.npm.taobao.org/leancloud-storage
+69 verbose request no auth needed
+70 info attempt registry request try #1 at 01:47:43
+71 http request GET http://registry.npm.taobao.org/leancloud-storage
+72 verbose request uri http://registry.npm.taobao.org/gulp-concat
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 01:47:43
+75 http request GET http://registry.npm.taobao.org/gulp-concat
+76 verbose request uri http://registry.npm.taobao.org/gulp
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 01:47:43
+79 http request GET http://registry.npm.taobao.org/gulp
+80 http 200 http://registry.npm.taobao.org/gulp-rename
+81 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+81 verbose headers   date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+81 verbose headers   'content-type': 'application/json; charset=utf-8',
+81 verbose headers   'transfer-encoding': 'chunked',
+81 verbose headers   connection: 'keep-alive',
+81 verbose headers   'x-current-requests': '1',
+81 verbose headers   'x-readtime': '28',
+81 verbose headers   'content-encoding': 'gzip' }
+82 silly get cb [ 200,
+82 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+82 silly get     date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+82 silly get     'content-type': 'application/json; charset=utf-8',
+82 silly get     'transfer-encoding': 'chunked',
+82 silly get     connection: 'keep-alive',
+82 silly get     'x-current-requests': '1',
+82 silly get     'x-readtime': '28',
+82 silly get     'content-encoding': 'gzip' } ]
+83 verbose get saving gulp-rename to /Users/ziyingying/.npm/registry.npm.taobao.org/gulp-rename/.cache.json
+84 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+85 http 200 http://registry.npm.taobao.org/gulp-concat
+86 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+86 verbose headers   date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+86 verbose headers   'content-type': 'application/json; charset=utf-8',
+86 verbose headers   'transfer-encoding': 'chunked',
+86 verbose headers   connection: 'keep-alive',
+86 verbose headers   'x-current-requests': '1',
+86 verbose headers   'x-readtime': '31',
+86 verbose headers   'content-encoding': 'gzip' }
+87 silly get cb [ 200,
+87 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+87 silly get     date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+87 silly get     'content-type': 'application/json; charset=utf-8',
+87 silly get     'transfer-encoding': 'chunked',
+87 silly get     connection: 'keep-alive',
+87 silly get     'x-current-requests': '1',
+87 silly get     'x-readtime': '31',
+87 silly get     'content-encoding': 'gzip' } ]
+88 verbose get saving gulp-concat to /Users/ziyingying/.npm/registry.npm.taobao.org/gulp-concat/.cache.json
+89 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+90 http 200 http://registry.npm.taobao.org/leancloud-storage
+91 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+91 verbose headers   date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+91 verbose headers   'content-type': 'application/json; charset=utf-8',
+91 verbose headers   'transfer-encoding': 'chunked',
+91 verbose headers   connection: 'keep-alive',
+91 verbose headers   'x-current-requests': '1',
+91 verbose headers   'x-readtime': '31',
+91 verbose headers   'content-encoding': 'gzip' }
+92 silly get cb [ 200,
+92 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+92 silly get     date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+92 silly get     'content-type': 'application/json; charset=utf-8',
+92 silly get     'transfer-encoding': 'chunked',
+92 silly get     connection: 'keep-alive',
+92 silly get     'x-current-requests': '1',
+92 silly get     'x-readtime': '31',
+92 silly get     'content-encoding': 'gzip' } ]
+93 verbose get saving leancloud-storage to /Users/ziyingying/.npm/registry.npm.taobao.org/leancloud-storage/.cache.json
+94 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+95 http 200 http://registry.npm.taobao.org/gulp-minify-css
+96 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+96 verbose headers   date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+96 verbose headers   'content-type': 'application/json; charset=utf-8',
+96 verbose headers   'transfer-encoding': 'chunked',
+96 verbose headers   connection: 'keep-alive',
+96 verbose headers   'x-current-requests': '1',
+96 verbose headers   'x-readtime': '61',
+96 verbose headers   'content-encoding': 'gzip' }
+97 silly get cb [ 200,
+97 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+97 silly get     date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+97 silly get     'content-type': 'application/json; charset=utf-8',
+97 silly get     'transfer-encoding': 'chunked',
+97 silly get     connection: 'keep-alive',
+97 silly get     'x-current-requests': '1',
+97 silly get     'x-readtime': '61',
+97 silly get     'content-encoding': 'gzip' } ]
+98 verbose get saving gulp-minify-css to /Users/ziyingying/.npm/registry.npm.taobao.org/gulp-minify-css/.cache.json
+99 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+100 silly resolveWithNewModule gulp-concat@2.6.0 checking installable status
+101 silly cache add args [ 'gulp-concat@^2.2.0', null ]
+102 verbose cache add spec gulp-concat@^2.2.0
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'gulp-concat@^2.2.0',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'gulp-concat',
+103 silly cache add   rawSpec: '^2.2.0',
+103 silly cache add   spec: '>=2.2.0 <3.0.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed gulp-concat@>=2.2.0 <3.0.0
+105 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for gulp-concat
+106 silly addNameRange { name: 'gulp-concat', range: '>=2.2.0 <3.0.0', hasData: false }
+107 silly mapToRegistry name gulp-concat
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry http://registry.npm.taobao.org/
+110 silly mapToRegistry data Result {
+110 silly mapToRegistry   raw: 'gulp-concat',
+110 silly mapToRegistry   scope: null,
+110 silly mapToRegistry   name: 'gulp-concat',
+110 silly mapToRegistry   rawSpec: '',
+110 silly mapToRegistry   spec: 'latest',
+110 silly mapToRegistry   type: 'tag' }
+111 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-concat
+112 verbose addNameRange registry:http://registry.npm.taobao.org/gulp-concat not in flight; fetching
+113 silly fetchPackageMetaData Error: No compatible version found: leancloud-storage@^3.1.0
+113 silly fetchPackageMetaData Valid install targets:
+113 silly fetchPackageMetaData 2.0.0-beta.0, 1.5.0, 1.4.0, 1.4.0-beta.0, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.0, 1.0.0-rc9.1, 1.0.0-rc8
+113 silly fetchPackageMetaData
+113 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+113 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+113 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+113 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+113 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+113 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:117:15)
+113 silly fetchPackageMetaData  error for leancloud-storage@^3.1.0 Error: No compatible version found: leancloud-storage@^3.1.0
+113 silly fetchPackageMetaData Valid install targets:
+113 silly fetchPackageMetaData 2.0.0-beta.0, 1.5.0, 1.4.0, 1.4.0-beta.0, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.0, 1.0.0-rc9.1, 1.0.0-rc8
+113 silly fetchPackageMetaData
+113 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+113 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+113 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+113 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+113 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+113 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:117:15)
+114 silly resolveWithNewModule gulp-rename@1.2.2 checking installable status
+115 silly cache add args [ 'gulp-rename@^1.2.0', null ]
+116 verbose cache add spec gulp-rename@^1.2.0
+117 silly cache add parsed spec Result {
+117 silly cache add   raw: 'gulp-rename@^1.2.0',
+117 silly cache add   scope: null,
+117 silly cache add   name: 'gulp-rename',
+117 silly cache add   rawSpec: '^1.2.0',
+117 silly cache add   spec: '>=1.2.0 <2.0.0',
+117 silly cache add   type: 'range' }
+118 silly addNamed gulp-rename@>=1.2.0 <2.0.0
+119 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for gulp-rename
+120 silly addNameRange { name: 'gulp-rename', range: '>=1.2.0 <2.0.0', hasData: false }
+121 silly mapToRegistry name gulp-rename
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry http://registry.npm.taobao.org/
+124 silly mapToRegistry data Result {
+124 silly mapToRegistry   raw: 'gulp-rename',
+124 silly mapToRegistry   scope: null,
+124 silly mapToRegistry   name: 'gulp-rename',
+124 silly mapToRegistry   rawSpec: '',
+124 silly mapToRegistry   spec: 'latest',
+124 silly mapToRegistry   type: 'tag' }
+125 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-rename
+126 verbose addNameRange registry:http://registry.npm.taobao.org/gulp-rename not in flight; fetching
+127 verbose get http://registry.npm.taobao.org/gulp-concat not expired, no request
+128 silly addNameRange number 2 { name: 'gulp-concat', range: '>=2.2.0 <3.0.0', hasData: true }
+129 silly addNameRange versions [ 'gulp-concat',
+129 silly addNameRange   [ '2.6.0',
+129 silly addNameRange     '2.5.2',
+129 silly addNameRange     '2.5.1',
+129 silly addNameRange     '2.5.0',
+129 silly addNameRange     '2.4.3',
+129 silly addNameRange     '2.4.2',
+129 silly addNameRange     '2.4.1',
+129 silly addNameRange     '2.4.0',
+129 silly addNameRange     '2.3.5',
+129 silly addNameRange     '2.3.4',
+129 silly addNameRange     '2.3.3',
+129 silly addNameRange     '2.3.0',
+129 silly addNameRange     '2.1.3',
+129 silly addNameRange     '2.2.0',
+129 silly addNameRange     '2.1.7',
+129 silly addNameRange     '2.1.6',
+129 silly addNameRange     '2.1.5',
+129 silly addNameRange     '2.1.4',
+129 silly addNameRange     '2.1.2',
+129 silly addNameRange     '2.1.1',
+129 silly addNameRange     '2.1.0',
+129 silly addNameRange     '2.0.0',
+129 silly addNameRange     '1.1.0',
+129 silly addNameRange     '1.0.0',
+129 silly addNameRange     '0.0.1' ] ]
+130 silly addNamed gulp-concat@2.6.0
+131 verbose addNamed "2.6.0" is a plain semver version for gulp-concat
+132 http 200 http://registry.npm.taobao.org/gulp-sass
+133 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+133 verbose headers   date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+133 verbose headers   'content-type': 'application/json; charset=utf-8',
+133 verbose headers   'transfer-encoding': 'chunked',
+133 verbose headers   connection: 'keep-alive',
+133 verbose headers   'x-current-requests': '1',
+133 verbose headers   'x-readtime': '72',
+133 verbose headers   'content-encoding': 'gzip' }
+134 silly get cb [ 200,
+134 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+134 silly get     date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+134 silly get     'content-type': 'application/json; charset=utf-8',
+134 silly get     'transfer-encoding': 'chunked',
+134 silly get     connection: 'keep-alive',
+134 silly get     'x-current-requests': '1',
+134 silly get     'x-readtime': '72',
+134 silly get     'content-encoding': 'gzip' } ]
+135 verbose get saving gulp-sass to /Users/ziyingying/.npm/registry.npm.taobao.org/gulp-sass/.cache.json
+136 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+137 verbose get http://registry.npm.taobao.org/gulp-rename not expired, no request
+138 silly addNameRange number 2 { name: 'gulp-rename', range: '>=1.2.0 <2.0.0', hasData: true }
+139 silly addNameRange versions [ 'gulp-rename',
+139 silly addNameRange   [ '1.2.2', '1.2.0', '1.1.0', '1.0.0', '0.2.2', '0.2.1', '0.1.0' ] ]
+140 silly addNamed gulp-rename@1.2.2
+141 verbose addNamed "1.2.2" is a plain semver version for gulp-rename
+142 silly mapToRegistry name gulp-rename
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry http://registry.npm.taobao.org/
+145 silly mapToRegistry data Result {
+145 silly mapToRegistry   raw: 'gulp-rename',
+145 silly mapToRegistry   scope: null,
+145 silly mapToRegistry   name: 'gulp-rename',
+145 silly mapToRegistry   rawSpec: '',
+145 silly mapToRegistry   spec: 'latest',
+145 silly mapToRegistry   type: 'tag' }
+146 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-rename
+147 verbose addRemoteTarball http://registry.npm.taobao.org/gulp-rename/download/gulp-rename-1.2.2.tgz not in flight; adding
+148 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/gulp-rename/download/gulp-rename-1.2.2.tgz',
+148 verbose addRemoteTarball   '3ad4428763f05e2764dec1c67d868db275687817' ]
+149 silly resolveWithNewModule gulp-minify-css@0.3.13 checking installable status
+150 silly cache add args [ 'gulp-minify-css@^0.3.0', null ]
+151 verbose cache add spec gulp-minify-css@^0.3.0
+152 silly cache add parsed spec Result {
+152 silly cache add   raw: 'gulp-minify-css@^0.3.0',
+152 silly cache add   scope: null,
+152 silly cache add   name: 'gulp-minify-css',
+152 silly cache add   rawSpec: '^0.3.0',
+152 silly cache add   spec: '>=0.3.0 <0.4.0',
+152 silly cache add   type: 'range' }
+153 silly addNamed gulp-minify-css@>=0.3.0 <0.4.0
+154 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for gulp-minify-css
+155 silly addNameRange { name: 'gulp-minify-css',
+155 silly addNameRange   range: '>=0.3.0 <0.4.0',
+155 silly addNameRange   hasData: false }
+156 silly mapToRegistry name gulp-minify-css
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry http://registry.npm.taobao.org/
+159 silly mapToRegistry data Result {
+159 silly mapToRegistry   raw: 'gulp-minify-css',
+159 silly mapToRegistry   scope: null,
+159 silly mapToRegistry   name: 'gulp-minify-css',
+159 silly mapToRegistry   rawSpec: '',
+159 silly mapToRegistry   spec: 'latest',
+159 silly mapToRegistry   type: 'tag' }
+160 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-minify-css
+161 verbose addNameRange registry:http://registry.npm.taobao.org/gulp-minify-css not in flight; fetching
+162 silly cache afterAdd gulp-concat@2.6.0
+163 verbose afterAdd /Users/ziyingying/.npm/gulp-concat/2.6.0/package/package.json not in flight; writing
+164 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+165 verbose get http://registry.npm.taobao.org/gulp-minify-css not expired, no request
+166 silly addNameRange number 2 { name: 'gulp-minify-css',
+166 silly addNameRange   range: '>=0.3.0 <0.4.0',
+166 silly addNameRange   hasData: true }
+167 silly addNameRange versions [ 'gulp-minify-css',
+167 silly addNameRange   [ '1.2.4',
+167 silly addNameRange     '1.2.3',
+167 silly addNameRange     '1.2.2',
+167 silly addNameRange     '1.2.1',
+167 silly addNameRange     '1.2.0',
+167 silly addNameRange     '1.1.6',
+167 silly addNameRange     '1.1.5',
+167 silly addNameRange     '1.1.4',
+167 silly addNameRange     '1.1.3',
+167 silly addNameRange     '1.1.2-1',
+167 silly addNameRange     '1.1.2',
+167 silly addNameRange     '1.1.1',
+167 silly addNameRange     '1.1.0',
+167 silly addNameRange     '1.0.0',
+167 silly addNameRange     '0.5.1',
+167 silly addNameRange     '0.5.0',
+167 silly addNameRange     '0.4.6',
+167 silly addNameRange     '0.4.5',
+167 silly addNameRange     '0.4.4',
+167 silly addNameRange     '0.4.3',
+167 silly addNameRange     '0.4.2',
+167 silly addNameRange     '0.4.1',
+167 silly addNameRange     '0.4.0',
+167 silly addNameRange     '0.3.13',
+167 silly addNameRange     '0.3.12',
+167 silly addNameRange     '0.3.11',
+167 silly addNameRange     '0.3.10',
+167 silly addNameRange     '0.3.9',
+167 silly addNameRange     '0.3.8',
+167 silly addNameRange     '0.3.7',
+167 silly addNameRange     '0.3.6',
+167 silly addNameRange     '0.3.5',
+167 silly addNameRange     '0.3.4',
+167 silly addNameRange     '0.3.3',
+167 silly addNameRange     '0.3.2',
+167 silly addNameRange     '0.3.1',
+167 silly addNameRange     '0.3.0',
+167 silly addNameRange     '0.2.0',
+167 silly addNameRange     '0.1.0',
+167 silly addNameRange     '0.0.1' ] ]
+168 silly addNamed gulp-minify-css@0.3.13
+169 verbose addNamed "0.3.13" is a plain semver version for gulp-minify-css
+170 warn deprecated gulp-minify-css@0.3.13: Please use gulp-clean-css
+171 silly mapToRegistry name gulp-minify-css
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry http://registry.npm.taobao.org/
+174 silly mapToRegistry data Result {
+174 silly mapToRegistry   raw: 'gulp-minify-css',
+174 silly mapToRegistry   scope: null,
+174 silly mapToRegistry   name: 'gulp-minify-css',
+174 silly mapToRegistry   rawSpec: '',
+174 silly mapToRegistry   spec: 'latest',
+174 silly mapToRegistry   type: 'tag' }
+175 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-minify-css
+176 verbose addRemoteTarball http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.13.tgz not in flight; adding
+177 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.13.tgz',
+177 verbose addRemoteTarball   'ba813c665422868305383ccd185f239c1e35209b' ]
+178 info retry fetch attempt 1 at 01:47:43
+179 info attempt registry request try #1 at 01:47:43
+180 http fetch GET http://registry.npm.taobao.org/gulp-rename/download/gulp-rename-1.2.2.tgz
+181 silly resolveWithNewModule gulp-sass@2.3.2 checking installable status
+182 silly cache add args [ 'gulp-sass@^2.0.4', null ]
+183 verbose cache add spec gulp-sass@^2.0.4
+184 silly cache add parsed spec Result {
+184 silly cache add   raw: 'gulp-sass@^2.0.4',
+184 silly cache add   scope: null,
+184 silly cache add   name: 'gulp-sass',
+184 silly cache add   rawSpec: '^2.0.4',
+184 silly cache add   spec: '>=2.0.4 <3.0.0',
+184 silly cache add   type: 'range' }
+185 silly addNamed gulp-sass@>=2.0.4 <3.0.0
+186 verbose addNamed ">=2.0.4 <3.0.0" is a valid semver range for gulp-sass
+187 silly addNameRange { name: 'gulp-sass', range: '>=2.0.4 <3.0.0', hasData: false }
+188 silly mapToRegistry name gulp-sass
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry http://registry.npm.taobao.org/
+191 silly mapToRegistry data Result {
+191 silly mapToRegistry   raw: 'gulp-sass',
+191 silly mapToRegistry   scope: null,
+191 silly mapToRegistry   name: 'gulp-sass',
+191 silly mapToRegistry   rawSpec: '',
+191 silly mapToRegistry   spec: 'latest',
+191 silly mapToRegistry   type: 'tag' }
+192 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-sass
+193 verbose addNameRange registry:http://registry.npm.taobao.org/gulp-sass not in flight; fetching
+194 verbose afterAdd /Users/ziyingying/.npm/gulp-concat/2.6.0/package/package.json written
+195 info retry fetch attempt 1 at 01:47:43
+196 info attempt registry request try #1 at 01:47:43
+197 http fetch GET http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.13.tgz
+198 verbose get http://registry.npm.taobao.org/gulp-sass not expired, no request
+199 silly addNameRange number 2 { name: 'gulp-sass', range: '>=2.0.4 <3.0.0', hasData: true }
+200 silly addNameRange versions [ 'gulp-sass',
+200 silly addNameRange   [ '2.3.2',
+200 silly addNameRange     '2.3.1',
+200 silly addNameRange     '2.3.0',
+200 silly addNameRange     '2.3.0-beta.1',
+200 silly addNameRange     '2.2.0',
+200 silly addNameRange     '2.1.1',
+200 silly addNameRange     '2.1.0',
+200 silly addNameRange     '2.1.0-beta',
+200 silly addNameRange     '2.0.4',
+200 silly addNameRange     '2.0.3',
+200 silly addNameRange     '2.0.2',
+200 silly addNameRange     '2.0.0',
+200 silly addNameRange     '2.0.0-alpha.1',
+200 silly addNameRange     '1.3.3',
+200 silly addNameRange     '1.3.2',
+200 silly addNameRange     '1.3.1',
+200 silly addNameRange     '1.3.0',
+200 silly addNameRange     '1.2.4',
+200 silly addNameRange     '1.2.3',
+200 silly addNameRange     '1.2.2',
+200 silly addNameRange     '1.2.1',
+200 silly addNameRange     '1.2.0',
+200 silly addNameRange     '1.1.0',
+200 silly addNameRange     '1.0.0',
+200 silly addNameRange     '0.7.3',
+200 silly addNameRange     '0.7.2',
+200 silly addNameRange     '0.7.1',
+200 silly addNameRange     '0.7.0',
+200 silly addNameRange     '0.6.0',
+200 silly addNameRange     '0.5.2',
+200 silly addNameRange     '0.5.1',
+200 silly addNameRange     '0.5.0',
+200 silly addNameRange     '0.4.1',
+200 silly addNameRange     '0.4.0',
+200 silly addNameRange     '0.3.0',
+200 silly addNameRange     '0.2.3',
+200 silly addNameRange     '0.2.2',
+200 silly addNameRange     '0.2.1',
+200 silly addNameRange     '0.1.0' ] ]
+201 silly addNamed gulp-sass@2.3.2
+202 verbose addNamed "2.3.2" is a plain semver version for gulp-sass
+203 silly mapToRegistry name gulp-sass
+204 silly mapToRegistry using default registry
+205 silly mapToRegistry registry http://registry.npm.taobao.org/
+206 silly mapToRegistry data Result {
+206 silly mapToRegistry   raw: 'gulp-sass',
+206 silly mapToRegistry   scope: null,
+206 silly mapToRegistry   name: 'gulp-sass',
+206 silly mapToRegistry   rawSpec: '',
+206 silly mapToRegistry   spec: 'latest',
+206 silly mapToRegistry   type: 'tag' }
+207 silly mapToRegistry uri http://registry.npm.taobao.org/gulp-sass
+208 verbose addRemoteTarball http://registry.npm.taobao.org/gulp-sass/download/gulp-sass-2.3.2.tgz not in flight; adding
+209 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/gulp-sass/download/gulp-sass-2.3.2.tgz',
+209 verbose addRemoteTarball   '82b7ab90fe902cdc34c04f180d92f2c34902dd52' ]
+210 info retry fetch attempt 1 at 01:47:43
+211 info attempt registry request try #1 at 01:47:43
+212 http fetch GET http://registry.npm.taobao.org/gulp-sass/download/gulp-sass-2.3.2.tgz
+213 http 200 http://registry.npm.taobao.org/gulp
+214 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+214 verbose headers   date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+214 verbose headers   'content-type': 'application/json; charset=utf-8',
+214 verbose headers   'transfer-encoding': 'chunked',
+214 verbose headers   connection: 'keep-alive',
+214 verbose headers   'x-current-requests': '1',
+214 verbose headers   'x-readtime': '161',
+214 verbose headers   'content-encoding': 'gzip' }
+215 silly get cb [ 200,
+215 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+215 silly get     date: 'Sat, 01 Oct 2016 17:47:43 GMT',
+215 silly get     'content-type': 'application/json; charset=utf-8',
+215 silly get     'transfer-encoding': 'chunked',
+215 silly get     connection: 'keep-alive',
+215 silly get     'x-current-requests': '1',
+215 silly get     'x-readtime': '161',
+215 silly get     'content-encoding': 'gzip' } ]
+216 verbose get saving gulp to /Users/ziyingying/.npm/registry.npm.taobao.org/gulp/.cache.json
+217 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+218 silly resolveWithNewModule gulp@3.9.1 checking installable status
+219 silly cache add args [ 'gulp@^3.5.6', null ]
+220 verbose cache add spec gulp@^3.5.6
+221 silly cache add parsed spec Result {
+221 silly cache add   raw: 'gulp@^3.5.6',
+221 silly cache add   scope: null,
+221 silly cache add   name: 'gulp',
+221 silly cache add   rawSpec: '^3.5.6',
+221 silly cache add   spec: '>=3.5.6 <4.0.0',
+221 silly cache add   type: 'range' }
+222 silly addNamed gulp@>=3.5.6 <4.0.0
+223 verbose addNamed ">=3.5.6 <4.0.0" is a valid semver range for gulp
+224 silly addNameRange { name: 'gulp', range: '>=3.5.6 <4.0.0', hasData: false }
+225 silly mapToRegistry name gulp
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry http://registry.npm.taobao.org/
+228 silly mapToRegistry data Result {
+228 silly mapToRegistry   raw: 'gulp',
+228 silly mapToRegistry   scope: null,
+228 silly mapToRegistry   name: 'gulp',
+228 silly mapToRegistry   rawSpec: '',
+228 silly mapToRegistry   spec: 'latest',
+228 silly mapToRegistry   type: 'tag' }
+229 silly mapToRegistry uri http://registry.npm.taobao.org/gulp
+230 verbose addNameRange registry:http://registry.npm.taobao.org/gulp not in flight; fetching
+231 verbose get http://registry.npm.taobao.org/gulp not expired, no request
+232 silly addNameRange number 2 { name: 'gulp', range: '>=3.5.6 <4.0.0', hasData: true }
+233 silly addNameRange versions [ 'gulp',
+233 silly addNameRange   [ '3.9.1',
+233 silly addNameRange     '3.9.0',
+233 silly addNameRange     '3.8.11',
+233 silly addNameRange     '3.8.10',
+233 silly addNameRange     '3.8.9',
+233 silly addNameRange     '3.8.8',
+233 silly addNameRange     '3.8.7',
+233 silly addNameRange     '3.8.6',
+233 silly addNameRange     '3.8.5',
+233 silly addNameRange     '3.8.4',
+233 silly addNameRange     '3.8.3',
+233 silly addNameRange     '3.8.2',
+233 silly addNameRange     '3.8.1',
+233 silly addNameRange     '3.8.0',
+233 silly addNameRange     '3.7.0',
+233 silly addNameRange     '3.6.2',
+233 silly addNameRange     '3.6.1',
+233 silly addNameRange     '3.6.0',
+233 silly addNameRange     '3.5.6',
+233 silly addNameRange     '3.5.5',
+233 silly addNameRange     '3.5.2',
+233 silly addNameRange     '3.5.1',
+233 silly addNameRange     '3.5.0',
+233 silly addNameRange     '3.4.0',
+233 silly addNameRange     '3.3.4',
+233 silly addNameRange     '3.3.2',
+233 silly addNameRange     '3.3.1',
+233 silly addNameRange     '3.3.0',
+233 silly addNameRange     '3.2.5',
+233 silly addNameRange     '3.2.4',
+233 silly addNameRange     '3.2.3',
+233 silly addNameRange     '3.2.2',
+233 silly addNameRange     '3.2.1',
+233 silly addNameRange     '3.2.0',
+233 silly addNameRange     '3.1.4',
+233 silly addNameRange     '3.1.3',
+233 silly addNameRange     '3.1.2',
+233 silly addNameRange     '3.1.1',
+233 silly addNameRange     '3.0.0',
+233 silly addNameRange     '2.7.0',
+233 silly addNameRange     '2.6.1',
+233 silly addNameRange     '2.6.0',
+233 silly addNameRange     '2.4.1',
+233 silly addNameRange     '2.4.0',
+233 silly addNameRange     '2.3.0',
+233 silly addNameRange     '2.2.0',
+233 silly addNameRange     '2.1.0',
+233 silly addNameRange     '2.0.1',
+233 silly addNameRange     '2.0.0',
+233 silly addNameRange     '1.2.1',
+233 silly addNameRange     '1.2.0',
+233 silly addNameRange     '1.1.0',
+233 silly addNameRange     '1.0.0',
+233 silly addNameRange     '0.2.0',
+233 silly addNameRange     '0.1.0',
+233 silly addNameRange     '0.0.9',
+233 silly addNameRange     '0.0.8',
+233 silly addNameRange     '0.0.7',
+233 silly addNameRange     '0.0.5',
+233 silly addNameRange     '0.0.4',
+233 silly addNameRange     '0.0.3',
+233 silly addNameRange     '0.0.2',
+233 silly addNameRange     '0.0.1' ] ]
+234 silly addNamed gulp@3.9.1
+235 verbose addNamed "3.9.1" is a plain semver version for gulp
+236 silly cache afterAdd gulp@3.9.1
+237 verbose afterAdd /Users/ziyingying/.npm/gulp/3.9.1/package/package.json not in flight; writing
+238 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+239 verbose afterAdd /Users/ziyingying/.npm/gulp/3.9.1/package/package.json written
+240 http fetch 200 http://registry.npm.taobao.org/gulp-sass/download/gulp-sass-2.3.2.tgz
+241 http fetch 200 http://registry.npm.taobao.org/gulp-rename/download/gulp-rename-1.2.2.tgz
+242 silly fetchAndShaCheck shasum 82b7ab90fe902cdc34c04f180d92f2c34902dd52
+243 silly fetchAndShaCheck shasum 3ad4428763f05e2764dec1c67d868db275687817
+244 verbose addTmpTarball /var/folders/41/8zs2j14x5fd5q5y3_nj2mn6h0000gn/T/npm-5809-e32d1d0f/registry.npm.taobao.org/gulp-sass/download/gulp-sass-2.3.2.tgz not in flight; adding
+245 verbose addTmpTarball already have metadata; skipping unpack for gulp-sass@2.3.2
+246 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+247 verbose addTmpTarball /var/folders/41/8zs2j14x5fd5q5y3_nj2mn6h0000gn/T/npm-5809-e32d1d0f/registry.npm.taobao.org/gulp-rename/download/gulp-rename-1.2.2.tgz not in flight; adding
+248 verbose addTmpTarball already have metadata; skipping unpack for gulp-rename@1.2.2
+249 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+250 http fetch 200 http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.13.tgz
+251 silly cache afterAdd gulp-rename@1.2.2
+252 verbose afterAdd /Users/ziyingying/.npm/gulp-rename/1.2.2/package/package.json not in flight; writing
+253 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+254 silly cache afterAdd gulp-sass@2.3.2
+255 verbose afterAdd /Users/ziyingying/.npm/gulp-sass/2.3.2/package/package.json not in flight; writing
+256 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+257 silly fetchAndShaCheck shasum ba813c665422868305383ccd185f239c1e35209b
+258 verbose afterAdd /Users/ziyingying/.npm/gulp-sass/2.3.2/package/package.json written
+259 verbose afterAdd /Users/ziyingying/.npm/gulp-rename/1.2.2/package/package.json written
+260 verbose addTmpTarball /var/folders/41/8zs2j14x5fd5q5y3_nj2mn6h0000gn/T/npm-5809-e32d1d0f/registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.13.tgz not in flight; adding
+261 verbose addTmpTarball already have metadata; skipping unpack for gulp-minify-css@0.3.13
+262 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+263 silly cache afterAdd gulp-minify-css@0.3.13
+264 verbose afterAdd /Users/ziyingying/.npm/gulp-minify-css/0.3.13/package/package.json not in flight; writing
+265 verbose correctMkdir /Users/ziyingying/.npm correctMkdir not in flight; initializing
+266 verbose afterAdd /Users/ziyingying/.npm/gulp-minify-css/0.3.13/package/package.json written
+267 silly rollbackFailedOptional Starting
+268 silly rollbackFailedOptional Finishing
+269 silly runTopLevelLifecycles Starting
+270 silly runTopLevelLifecycles Finishing
+271 silly install printInstalled
+272 verbose stack Error: No compatible version found: leancloud-storage@^3.1.0
+272 verbose stack Valid install targets:
+272 verbose stack 2.0.0-beta.0, 1.5.0, 1.4.0, 1.4.0-beta.0, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.0, 1.0.0-rc9.1, 1.0.0-rc8
+272 verbose stack
+272 verbose stack     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+272 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+272 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+272 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+272 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+272 verbose stack     at FSReqWrap.oncomplete (fs.js:117:15)
+273 verbose cwd /Users/ziyingying/workspace/ic2
+274 error Darwin 15.3.0
+275 error argv "/usr/local/Cellar/node/6.2.1/bin/node" "/usr/local/bin/npm" "install"
+276 error node v6.2.1
+277 error npm  v3.9.3
+278 error No compatible version found: leancloud-storage@^3.1.0
+278 error Valid install targets:
+278 error 2.0.0-beta.0, 1.5.0, 1.4.0, 1.4.0-beta.0, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.0, 1.0.0-rc9.1, 1.0.0-rc8
+279 error If you need help, you may report this error at:
+279 error     <https://github.com/npm/npm/issues>
+280 verbose exit [ 1, true ]

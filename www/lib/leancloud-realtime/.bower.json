@@ -1,0 +1,40 @@
+{
+  "name": "leancloud-realtime",
+  "version": "3.2.3",
+  "homepage": "https://github.com/leancloud/js-realtime-sdk/",
+  "description": "LeanCloud JavaScript Realtime SDK",
+  "main": "dist/realtime.browser.min.js",
+  "ignore": [
+    "**/.*",
+    "*.sh",
+    "demo",
+    "docs",
+    "test",
+    "Gruntfile.js"
+  ],
+  "moduleType": [
+    "es6",
+    "umd",
+    "globals"
+  ],
+  "keywords": [
+    "leancloud",
+    "realtime",
+    "message"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.5.0",
+    "sinon": "http://sinonjs.org/releases/sinon-1.17.3.js"
+  },
+  "_release": "3.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.2.3",
+    "commit": "ba3bd31c8a2764d81277aba242a6a81b6dc290a3"
+  },
+  "_source": "https://github.com/leancloud/js-realtime-sdk.git",
+  "_target": "^3.2.3",
+  "_originalSource": "leancloud-realtime",
+  "_direct": true
+}

@@ -1,0 +1,23 @@
+<ion-view view-title="冒泡" can-swipe-back="false">
+  <ion-nav-buttons side="right">
+      <span class="ion-plus ft-20 mr-10" ng-click="chatAddBtn($event)">
+      </span>
+  </ion-nav-buttons>
+  <ion-content>
+    <ion-list>
+      <ion-item class="item" ng-if="emptyChatList">
+        <h2>赶紧添加家人吧</h2>
+      </ion-item>
+      <ion-item class="item-remove-animate item-avatar" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}" ng-if="ischatListShow">
+        <img ng-src="img/ben.png">
+        <span class='chat-circle-unread' ng-if="chat.unreadMessagesCount>0">{{chat.unreadMessagesCount}}</span>
+        <h2 ng-if="chat._attributes.type=='private'">{{chat.members | getChatListLabelName:currentClient.id}}</h2>
+        <p>{{chat.lastMessage | showLastChatMsgContent}}</p>
+        <span class="chat-list-time">{{chat.lastMessageAt | date:"dd/MM/yyyy"}}</span>
+        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+          删除
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

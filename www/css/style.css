@@ -1,0 +1,170 @@
+/* Empty. Add your own CSS if you like */
+@charset "UTF-8";
+a,a:hover {
+  text-decoration: none;
+}
+
+.login-bg {
+  background: url('../img/bg.png') no-repeat center center;
+  padding:0;
+  margin:0;
+}
+
+.ft-white {
+  color:white;
+}
+
+.m-0 {
+  margin: 0 auto;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.pt-20-percent {
+  padding-top: 20%;
+}
+
+.pb-44 {
+  padding-bottom: 44px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.border-0 {
+  border:0px;
+}
+
+.ft-17 {
+  font-size: 17px;
+}
+
+.ft-20 {
+  font-size: 20px;
+}
+
+.ft-24 {
+  font-size: 24px;
+}
+
+
+/** chat style*/
+.chat-circle-unread {
+  position: absolute;
+  top:12px;
+  background-color: red;
+  width: 18px;
+  height:18px;
+  border-radius: 50%;
+  color:white;
+  text-align: center;
+  vertical-align: middle;
+  left:40px;
+  font-size: 10px;
+}
+
+.chat-list-time {
+  position: absolute;
+  top:12px;
+  right:16px;
+  padding:5px 5px;
+  font-size: 10px;
+}
+
+.chat-input {
+  width: 100%;
+  height: 28px !important;
+  margin-top: 6px;
+}
+
+.chat-to-msg:before {
+  position: absolute;
+  content: "";
+  border:10px solid transparent;
+  border-right-color: #dbdbdb;
+  top:5px;
+  left:-16px;
+}
+
+.chat-to-msg {
+  padding:10px 10px;
+  background-color: #dbdbdb;
+  color: white;
+  white-space:normal;
+  border-radius: 4px;
+  position: relative;
+}
+
+.chat-from-msg {
+  padding:10px 10px;
+  background-color: #11c1f3;
+  color: white;
+  width: auto;
+  text-align: right;
+  white-space:normal;
+  border-radius: 4px;
+  position: relative;
+}
+
+.chat-from-msg:after {
+  position: absolute;
+  content: "";
+  border:10px solid transparent;
+  border-left-color: #11c1f3;
+  top:5px;
+  right:-16px;
+}
+
+.chat-to-image {
+  padding:5px 5px;
+  background-color: #dbdbdb;
+  color: white;
+  white-space:normal;
+  border-radius: 4px;
+  position: relative;
+  height:100px;
+  height:100px;
+}
+
+.to-img {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  max-width: 40px;
+  max-height: 40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.from-img {
+  position: absolute;
+  right:16px !important;
+  top:16px;
+  max-width: 40px;
+  max-height: 40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.chat-poperover {
+  height: 42px;
+  width:120px;
+}
+

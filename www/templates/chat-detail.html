@@ -1,0 +1,43 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="{{chatName}}" can-swipe-back="false">
+  <ion-content delegate-handle="chatDetailScroll" >
+    <div class="list pb-44">
+      <ion-item class="item" style="padding:0px 0px; border-color:transparent;" ng-repeat="msg in chatMsgs track by msg.id">
+      <!--发送方文字模板-->
+        <div class="item" style="border-color:transparent;padding-left:66px;" ng-if="msg | chatDetailTo:currentClient.id:'text'">
+        <img ng-src="img/perry.png" class="to-img">
+        <div class="chat-to-msg">{{msg.text}}</div>
+        </div>
+        <div class="item" style="border-color:transparent;padding-right:66px;" ng-if="msg | chatDetailFrom:currentClient.id:'text'">
+          <img ng-src="img/perry.png" class="from-img">
+          <div class="chat-from-msg">
+            {{msg.text}}
+          </div>
+        </div>
+      </ion-item>
+    </div>
+  </ion-content>
+  <div class="bar bar-footer bar-stable row">
+    <div class="col-10 text-center padding">
+      <span class="ft-24" ng-click="micClick()" ng-class="{'ion-ios-mic':isChatInput,'ion-ios-keypad':isChatVoice}"></span>
+    </div>
+    <div class="col-75">
+    <input type="text" class='chat-input' ng-keyup="keyEnter($event)"  id="chatDetailIpt" ng-if="isChatInput"/>
+
+    <button ng-if="isChatVoice" class="button button-light button-block button-small" style="height:28px !important;padding-top:0px;margin-top:5px">
+      按住说话
+    </button>
+    </div>
+    <div class="col text-center padding">
+      <span class="ion-image ft-24"></span>
+    </div>
+    <!-- <div class="col text-center padding">
+      <span class="ion-android-send ft-24" ng-click="keyEnter({keyCode:13})"></span>
+    </div> -->
+  </div>
+</ion-view>

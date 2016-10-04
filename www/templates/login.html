@@ -1,0 +1,26 @@
+<ion-view hide-nav-bar="true" can-swipe-back="false">
+  <ion-content scroll='false' class='pt-20-percent login-bg' >
+    <div class="list list-inset">
+      <label class="item item-input">
+        <input type="tel" placeholder="手机号" ng-model="username">
+      </label>
+      <label class="item item-input">
+        <input type="password" placeholder="密码" ng-model="userpwd">
+      </label>
+    </div>
+    <div class="padding">
+      <button  class="button button-block button-positive" ng-click="loginAction()">
+        <i class="ion-log-in mr-5"></i>
+        快速登录
+      </button>
+      <a href="#/register" class="button button-block button-stable">
+        <i class="ion-person-add mr-5"></i>
+        用户注册
+     </a>
+     <a href="#/" class="button button-block button-outline button-assertive">
+        <i class="ion-help-circled"></i>
+        忘记密码
+     </a>
+    </div>
+  </ion-content>
+</ion-view>
